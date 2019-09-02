@@ -5,7 +5,7 @@ import todos from './api/todos';
 import './App.css';
 
 function App() {
-  console.log(todos)
+  
   return (
     <div className="App">
       <TodoItem todos = {todos}/>
